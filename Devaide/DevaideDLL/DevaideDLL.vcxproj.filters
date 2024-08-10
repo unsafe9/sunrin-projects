@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllMain">
+      <UniqueIdentifier>{69106cc9-b0f1-4208-a671-e0f91f0715d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookManager">
+      <UniqueIdentifier>{c96f8943-50fd-4007-af02-77d70c7e5276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{ff9655a6-119e-451c-8824-4dd91c6068fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="HookManager.cpp">
+      <Filter>HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DevaideDLL.h">
+      <Filter>DllMain</Filter>
+    </ClInclude>
+    <ClInclude Include="HookManager.h">
+      <Filter>HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

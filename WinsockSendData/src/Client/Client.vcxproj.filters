@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Client">
+      <UniqueIdentifier>{28b77036-e30e-4ac4-93fb-9048a74defd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{3b964cb9-a18d-4cb9-a62e-7bdedc254cf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Socket">
+      <UniqueIdentifier>{895a2de6-3719-4507-9163-753c61cc340f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Thread">
+      <UniqueIdentifier>{1ae72dcc-9ebc-44a5-acf6-ad413e8123c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Thread.cpp">
+      <Filter>Shared\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket.cpp">
+      <Filter>Shared\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientMain.cpp" />
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Thread.h">
+      <Filter>Shared\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket.h">
+      <Filter>Shared\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{015dfba1-ff1a-404d-8cd6-1b12c9dcdf23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compile">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{14cde49a-dc8f-4b3a-936a-34031cafa568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{6d61f4c3-0d5d-4f76-958b-ea0e2856c4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgAbout">
+      <UniqueIdentifier>{248d852e-c170-466a-be7a-16d4de74be97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgCalculator">
+      <UniqueIdentifier>{75dfee27-f46e-471d-961f-32fbfe59417f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgGraph">
+      <UniqueIdentifier>{a4b847a7-2b53-4a3e-bf1f-be528d8f6975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgMain">
+      <UniqueIdentifier>{dd7d41cb-fb45-4b44-b19e-1eabbdd0154c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgMemo">
+      <UniqueIdentifier>{902cf0ea-216f-4362-994f-69be4e43404e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgProgram">
+      <UniqueIdentifier>{57193cf6-70b0-4c0d-85b3-6a4a2f076acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgWindow">
+      <UniqueIdentifier>{f84b09cd-7115-42a7-8a5f-3c8ef4a88616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgWindow\ChildWnd">
+      <UniqueIdentifier>{4417ef3b-4f57-4a68-8652-ab32f1180831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DlgProgram\StartDropListBox">
+      <UniqueIdentifier>{34c9cf60-c0ac-4068-91c0-61db50a7ff5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\StartupManager">
+      <UniqueIdentifier>{71050878-6d8f-453d-a494-1f197fcbb3da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgMain.h">
+      <Filter>DlgMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Compile</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Compile</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAbout.h">
+      <Filter>DlgAbout</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgCalculator.h">
+      <Filter>DlgCalculator</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgWindow.h">
+      <Filter>DlgWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProgram.h">
+      <Filter>DlgProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgGraph.h">
+      <Filter>DlgGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Function</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgShowChildWnd.h">
+      <Filter>DlgWindow\ChildWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgMemo.h">
+      <Filter>DlgMemo</Filter>
+    </ClInclude>
+    <ClInclude Include="Devaide.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="StartDropListBox.h">
+      <Filter>DlgProgram\StartDropListBox</Filter>
+    </ClInclude>
+    <ClInclude Include="StartupManager.h">
+      <Filter>Function\StartupManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgMain.cpp">
+      <Filter>DlgMain</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Compile</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAbout.cpp">
+      <Filter>DlgAbout</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgCalculator.cpp">
+      <Filter>DlgCalculator</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgGraph.cpp">
+      <Filter>DlgGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProgram.cpp">
+      <Filter>DlgProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgWindow.cpp">
+      <Filter>DlgWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>Function</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgShowChildWnd.cpp">
+      <Filter>DlgWindow\ChildWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgMemo.cpp">
+      <Filter>DlgMemo</Filter>
+    </ClCompile>
+    <ClCompile Include="Devaide.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="StartDropListBox.cpp">
+      <Filter>DlgProgram\StartDropListBox</Filter>
+    </ClCompile>
+    <ClCompile Include="StartupManager.cpp">
+      <Filter>Function\StartupManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Devaide.ico">
+      <Filter>Resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Devaide.rc2">
+      <Filter>Resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Devaide.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

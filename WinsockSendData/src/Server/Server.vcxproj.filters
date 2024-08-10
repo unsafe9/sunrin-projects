@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{33117b70-6225-4458-921c-1f930129dd32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Socket">
+      <UniqueIdentifier>{71b24b5c-0d2a-401e-8fd3-716c2773c8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Thread">
+      <UniqueIdentifier>{14989601-0326-4085-9d65-ee43c353fd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{1bf3e89f-552b-4b21-930f-f5fccfa3d6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{dfc92487-092d-429f-ac41-79773cc2a2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\MainThread">
+      <UniqueIdentifier>{f74281c2-6527-4b78-a875-62b4ced7b9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread\ClientPeerThread">
+      <UniqueIdentifier>{b795c6f2-d3e7-42b2-a1ae-54137423b29f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Thread.cpp">
+      <Filter>Shared\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket.cpp">
+      <Filter>Shared\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMain.cpp" />
+    <ClCompile Include="Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="MainThread.cpp">
+      <Filter>Thread\MainThread</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPeerThread.cpp">
+      <Filter>Thread\ClientPeerThread</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Thread.h">
+      <Filter>Shared\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket.h">
+      <Filter>Shared\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MainThread.h">
+      <Filter>Thread\MainThread</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientPeerThread.h">
+      <Filter>Thread\ClientPeerThread</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

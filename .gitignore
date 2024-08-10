@@ -1,0 +1,6 @@
+.vscode/
+.idea/
+*.iml
+
+**/.vs/
+**/*.VC.db
